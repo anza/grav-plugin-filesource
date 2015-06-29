@@ -1,15 +1,15 @@
-name: Sourcefile
-version: 0.1
-description: "With **Sourcefile** user can embed text files from same directory to a page with Markdown syntax"
+name: filesource
+version: 0.2
+description: "With **filesource** a user can show the source of any text file in a post"
 icon: trello
 author:
   name: lk
   email: antti@may.fi
   url: http://notes.may.fi
-#homepage: https://github.com/getgrav/grav-plugin-page-inject
+homepage: https://github.com/anza/grav-plugin-filesource
 keywords: source, embed
-#bugs: https://github.com/getgrav/grav-plugin-page-inject/issues
-license: copyright, work-in-progress
+bugs: https://github.com/anza/grav-plugin-filesource/issues
+license: BSD
 
 form:
   validation: strict

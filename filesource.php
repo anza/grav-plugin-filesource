@@ -69,7 +69,7 @@ class FilesourcePlugin extends Plugin
 		$replace = "$replace_header" . "$replace_content" . "$replace_footer";
 
                 // do the replacement
-                return str_replace($search, $replace, $search);
+                return $replace;
             };
             // set the parsed content back into as raw content
             $page->setRawContent($this->parseInjectLinks($raw, $function));

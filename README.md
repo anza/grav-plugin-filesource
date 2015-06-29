@@ -3,13 +3,13 @@
 
 `filesource` is a plugin which allows embedding file sources to a page as text.
 
-Based on MIT-licensed [Grav PageInject Plugin](https://github.com/getgrav/grav-plugin-page-inject)
+Based on [Grav PageInject Plugin](https://github.com/getgrav/grav-plugin-page-inject)
 by [rhukster](https://github.com/rhukster)
 
 
 ## TODO
 
-* rethink the whole embedding mechanism
+* write better readme
 * sanitize paths and reading files
 * add options how to format the embedded file
   * templates, perhaps?
