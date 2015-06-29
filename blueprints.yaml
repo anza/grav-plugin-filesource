@@ -1,0 +1,27 @@
+name: Sourcefile
+version: 0.1
+description: "With **Sourcefile** user can embed text files from same directory to a page with Markdown syntax"
+icon: trello
+author:
+  name: lk
+  email: antti@may.fi
+  url: http://notes.may.fi
+#homepage: https://github.com/getgrav/grav-plugin-page-inject
+keywords: source, embed
+#bugs: https://github.com/getgrav/grav-plugin-page-inject/issues
+license: copyright, work-in-progress
+
+form:
+  validation: strict
+  fields:
+    enabled:
+      type: toggle
+      label: Plugin status
+      highlight: 1
+      default: 0
+      options:
+        1: Enabled
+        0: Disabled
+      validate:
+        type: bool
+
