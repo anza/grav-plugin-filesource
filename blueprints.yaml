@@ -3,11 +3,11 @@ version: 0.2
 description: "With **filesource** a user can show the source of any text file in a post"
 icon: trello
 author:
-  name: lk
+  name: anza
   email: antti@may.fi
   url: http://notes.may.fi
 homepage: https://github.com/anza/grav-plugin-filesource
-keywords: source, embed
+keywords: text file, source, embed
 bugs: https://github.com/anza/grav-plugin-filesource/issues
 license: BSD
 
